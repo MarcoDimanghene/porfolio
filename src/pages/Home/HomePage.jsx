@@ -2,7 +2,7 @@ import { Hero } from "../../components/Hero/Hero"
 import { HomeWrapper } from "./HomeStyled"
 
 
-const Home = () => {
+const Homepage = () => {
     return (
         <HomeWrapper>
             <Hero/>
@@ -10,4 +10,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Homepage
