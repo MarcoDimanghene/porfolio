@@ -1,7 +1,7 @@
 import { ContIconsSkill, ContSkill, IconsCcont, SkillIcons, TitleStyled } from "./SklillStyled";
 import html5 from "./img/html5.png";
 import css from "./img/css.png";
-import javas from "./img/js.png";
+import javas from "./img/javas.png";
 import react from "./img/react.png";
 import ts from "./img/ts.png";
 import sql from "./img/sql.png";
