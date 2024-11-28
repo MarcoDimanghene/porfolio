@@ -4,8 +4,8 @@ import css from "./img/css.png";
 import javas from "./img/javas.png";
 import react from "./img/react.png";
 import ts from "./img/ts.png";
-import sql from "./img/sql.png";
-import vs from "./img/visual.png";
+import sql from "./img/sqldb.png";
+import vs from "./img/vscode.png";
 import py from "./img/python.png";
 import mongo from "./img/mongo.png";
 
