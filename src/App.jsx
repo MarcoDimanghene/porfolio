@@ -2,10 +2,10 @@ import { GlobalStyles } from "./Styles/Global";
 import { ThemeProvider } from 'styled-components';
 import { useThemeToggle } from "./Utils/constants";
 import Navbar from "./components/Navbar/Navbar";
-import Home from "./pages/home/home";
+import Home from "./pages/Home/Home"
 import ProjectsPage from "./pages/Projects/ProjectsPage";
-import  Skillpage  from "./pages/SkillPage/Skillpage";
-import  EduPage  from "./pages/Education/EduPage";
+import { Skillpage } from "./pages/SkillPage/Skillpage";
+import { EduPage } from "./pages/Education/EduPage";
 
 
 function App() {
