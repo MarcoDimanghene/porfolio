@@ -2,7 +2,7 @@
 import Projects from '../../components/Projects/Projects'
 import { ProjectsWrapper } from './ProjectsStyledPage'
 
-const ProjectsPage = () => {
+export const ProjectsPage = () => {
   return (
     <ProjectsWrapper>
       <Projects/>
@@ -11,4 +11,4 @@ const ProjectsPage = () => {
   )
 }
 
-export default ProjectsPage
+ 
