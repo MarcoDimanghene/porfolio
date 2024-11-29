@@ -4,7 +4,7 @@ import { ProjectsWrapper } from './ProjectsStyledPage'
 
 export const ProjectsPage = () => {
   return (
-    <ProjectsWrapper>
+    <ProjectsWrapper id="project">
       <Projects/>
     </ProjectsWrapper>
     

@@ -9,6 +9,7 @@ export const GlobalStyles = createGlobalStyle`
         scroll-behavior: smooth;
         border: none;
         outline: none;
+        scroll-behavior: smooth;
     }
 
     :root {

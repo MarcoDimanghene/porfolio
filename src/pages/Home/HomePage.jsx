@@ -4,7 +4,7 @@ import { HomeWrapper } from "./HomeStyled"
 
 const Homepage = () => {
     return (
-        <HomeWrapper>
+        <HomeWrapper id="home">
             <Hero/>
         </HomeWrapper>
     )

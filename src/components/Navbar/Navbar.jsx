@@ -13,10 +13,10 @@ const Navbar = ({toggleTheme, isDarkMode  }) => {
                 </Logo>
             
                 <MenuLink>
-                    <LinkA to='/'>Inicio</LinkA>
-                    <LinkA>Proyectos</LinkA>
-                    <LinkA>Habilidades</LinkA>
-                    <LinkA>Educación</LinkA>
+                    <LinkA href="#home">Inicio</LinkA>
+                    <LinkA href="#project">Proyectos</LinkA>
+                    <LinkA href="#skill">Habilidades</LinkA>
+                    <LinkA href="#education">Educación</LinkA>
                 </MenuLink>
                 <ThemeSelector onClick={toggleTheme }> {isDarkMode ? <GoMoon /> : <GoSun />}</ThemeSelector>
             </WrapperHed>

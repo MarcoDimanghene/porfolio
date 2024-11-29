@@ -10,7 +10,7 @@ import { H3TitleStyled } from "../UI/Txtformat/TxtStyled";
 
 const Projects = () => {
     return (
-        <WrapperProyec>
+        <WrapperProyec >
             <TitleCont><H3TitleStyled>Mis Proyectos</H3TitleStyled></TitleCont>
             <ContProjecs>
                 <Proyects>

@@ -3,7 +3,7 @@ import { EduWrapper } from './EduPageStyled'
 
 export const EduPage = () => {
     return (
-        <EduWrapper>
+        <EduWrapper id="education">
             <Education/>
         </EduWrapper>
     )

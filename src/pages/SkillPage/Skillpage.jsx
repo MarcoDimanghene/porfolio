@@ -4,7 +4,7 @@ import Skill from '../../components/Skill/Skill'
 
 export const Skillpage = () => {
     return (
-    <WrapperSkill>
+    <WrapperSkill id="skill">
         <Skill/>
     </WrapperSkill>
     )
