@@ -13,19 +13,19 @@ const Projects = () => {
         <WrapperProyec >
             <TitleCont><H3TitleStyled>Mis Proyectos</H3TitleStyled></TitleCont>
             <ContProjecs>
-                <Proyects>
+                <Proyects onClick={() => window.open("https://integrador-brown.vercel.app/", "_blank")}>
                     <Proyect01Img src={proyects01}/>
                     <p>Desarrollé una landing page responsiva, enfocándome en la estructura semántica de HTML y el diseño visual con CSS.</p>
                     
                     <ContIcons><p>Tencologias usadas</p><TiHtml5 /> <TiCss3 /> </ContIcons>
                 </Proyects>
-                <Proyects>
+                <Proyects onClick={() => window.open("https://freshfit.vercel.app/", "_blank")}>
                 <Proyect01Img src={proyects02}/>
                     <p> Creé un E-commerce con JavaScript, implementando funcionalidades dinámicas como carrito de compras y actualizaciones interactivas. </p>
                     
                     <ContIcons><p>Tencologias usadas</p><TiHtml5 /> <TiCss3 /><TbBrandJavascript /></ContIcons>
                 </Proyects>
-                <Proyects>
+                <Proyects onClick={() => window.open("https://aplimar.vercel.app/", "_blank")}>
                     <Proyect01Img src={proyects03}/>
                     <p>Desarrollé una landing page que consume la API de Marvel, permitiendo a los usuarios buscar y obtener información sobre personajes.
                     </p>
@@ -33,7 +33,7 @@ const Projects = () => {
                     <TiHtml5 /> <TiCss3 /><TbBrandJavascript />
                     </ContIcons>
                 </Proyects>
-                <Proyects>
+                <Proyects onClick={() => window.open("https://wheels-on-demand-omega.vercel.app/", "_blank")}>
                 <Proyect01Img src={proyects04}/>
                     <p> Construí un E-commerce completo con React, MongoDB y TypeScript, creando una API personalizada para gestionar datos de productos, usuarios y pedidos.</p>
                     
