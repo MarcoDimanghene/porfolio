@@ -35,14 +35,14 @@ const Skill = () => {
             <PStyled>Python </PStyled>
         </IconsCcont>
         <IconsCcont> <SkillIcons src={ts} />
-            <PStyled>Typescrip </PStyled>
+            <PStyled>Typescript </PStyled>
         </IconsCcont>
         <IconsCcont> <SkillIcons src={sql} />
             <PStyled>SQL </PStyled>
         </IconsCcont>
         <IconsCcont> <SkillIcons src={vs} />
-            <PStyled>Visual</PStyled>
-            <PStyled> Studio</PStyled>
+            <PStyled>VS</PStyled>
+            <PStyled> Code</PStyled>
         </IconsCcont>
         <IconsCcont> <SkillIcons src={mongo} />
             <PStyled>Mongo DB </PStyled>
