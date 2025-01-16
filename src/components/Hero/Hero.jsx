@@ -18,8 +18,8 @@ export const Hero = () => {
         </ImgDivCont>
     </ImfoCont>
       <IconCont>
-        <IconMotionDiv><SiGithub/></IconMotionDiv>
-        <IconMotionDiv><SiLinkedin /></IconMotionDiv>
+        <IconMotionDiv onClick={() => window.open("https://github.com/MarcoDimanghene", "_blank")}><SiGithub/></IconMotionDiv>
+        <IconMotionDiv onClick={() => window.open("https://www.linkedin.com/in/marcodimanghene", "_blank")}><SiLinkedin /></IconMotionDiv>
       </IconCont>
     </WrapperHero>
   )

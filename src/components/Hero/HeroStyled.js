@@ -27,7 +27,9 @@ export const WrapperHero = styled.div `
 `
 export const ImfoCont = styled.div`
     display: flex;
-    
+    align-items:center;
+    justify-content:center;
+    margin-left: 80px;
     @media (max-width: 750px) {
         display: flex;
         flex-direction: column-reverse;
@@ -35,6 +37,7 @@ export const ImfoCont = styled.div`
         justify-content:center;
         width:100%;
         font-size:1rem;
+        margin-left: 0px;
         }
 `
 export const IconCont = styled.div `
