@@ -16,7 +16,7 @@ export const Hero = () => {
         <ImgDivCont>
           <ImgDiv/>
         </ImgDivCont>
-      </ImfoCont>
+    </ImfoCont>
       <IconCont>
         <IconMotionDiv><SiGithub/></IconMotionDiv>
         <IconMotionDiv><SiLinkedin /></IconMotionDiv>

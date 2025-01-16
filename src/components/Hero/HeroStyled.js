@@ -18,21 +18,47 @@ export const WrapperHero = styled.div `
     margin:auto;
     justify-content: center;
     flex-direction:column;
+    @media (max-width: 750px) {
+        margin-top: 100px;
+        padding:0px ;
+        width:100%;
+        }
 
 `
 export const ImfoCont = styled.div`
     display: flex;
+    
+    @media (max-width: 750px) {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items:center;
+        justify-content:center;
+        width:100%;
+        font-size:1rem;
+        }
 `
 export const IconCont = styled.div `
     display: flex;
     width:20%;
     height:50px;
     color:'var(--tex-color)';
+    @media (max-width: 750px) {
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        margin:auto;
+        width:100%;
+        font-size:2rem;
+        }
 `
 
 export const TxtConnt = styled.div `
     max-width:50%;
-
+    
+    @media (max-width: 750px) {
+        margin:10px;
+        max-width:70%;
+        }
 `
 export const H3Styled = styled.h3`
     font-size:3rem;
@@ -48,11 +74,23 @@ export const H3Styled = styled.h3`
     animation-duration: 3s;  
     animation-timing-function: ease-in-out;
     animation-delay: 0s; 
+    @media (max-width: 750px) {
+        
+        font-size:2rem;
+        }
 `
 
 export const ImgDivCont = styled.div`
     display:flex;
     width:80%;
+    @media (max-width: 750px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-size:2rem;
+        padding:15px;
+        }
 `
 export const ImgDiv= styled.div`
     background-image: url(${imgMarco});
