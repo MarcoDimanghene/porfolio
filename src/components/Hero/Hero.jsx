@@ -11,7 +11,7 @@ export const Hero = () => {
         <H1Styled>Hola soy Marco</H1Styled>
         <H1Styled>Dimanghene</H1Styled>
           <H3Styled>Front Developer</H3Styled>
-          <PStyled>Desarrollador web en formación, con experiencia administrativa, apasionado por la tecnología, Full Stack, IA y soluciones digitales innovadoras.</PStyled>
+          <PStyled>Full stack developer con conocimientos en React, Node y MongoDB. Experiencia en automatización y soluciones digitales.</PStyled>
       </TxtConnt>
         <ImgDivCont>
           <ImgDiv/>
